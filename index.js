@@ -2,7 +2,7 @@ const fs = require('fs')
 const neatCsv = require('neat-csv');
 
 const FILENAME_REGEX = /[A-Z]-[A-Z][A-Z][A-Z][0-9][0-9]/i
-const MONTHS = ['ENE', 'FEB', 'MAR', 'ABR', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
+const MONTHS = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
 
 const INVALID_FILENAME_ERROR = Error(`The format of one of the files is not valid. Valid format: 'X-MMMYY' (X-initial, MMM-month, YY-year)`)
 
